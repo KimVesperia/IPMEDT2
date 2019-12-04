@@ -1,0 +1,79 @@
+#container2{
+  width: 100%;
+}
+img[usemap] {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+#map{
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+#popupwonsan, #popuppyongyang, #popupbevolking{
+    background-color:#f6f1d9;
+    position: absolute;
+    width:600px;
+    height: 550px;
+    margin-left: 400px;
+    margin-top:-600px;
+    padding:30px;
+    color:#591B18;
+    box-sizing: border-box;
+}
+#popupwonsan h2{
+    font-size:1.3em;
+}
+.sluitpopup{
+  text-align: center;
+  font-size: 3em;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  color:#f6f1d9;
+}
+.popupsluiter{
+    background-color:#591B18;
+    height: 60px;
+    width:60px;
+    float: right;
+    cursor: pointer;
+    margin-top:-32px;
+    margin-left:550px;
+    position: absolute;
+}
+video{
+    width:90%;
+    height: 300px;
+    margin-left:0;
+    margin-top:15px;
+    position: absolute;
+}
+.popup{
+    text-align: center;
+}
+@media all and (max-width:1000px) {
+  #popuppyongyang{
+    margin-top:-704px;
+    width:80%;
+    height: 500px;
+  }
+  #popupwonsan{
+    margin-top:-704px;
+    width:90%;
+    height: 500px;
+  }
+  #popupbevolking{
+    margin-top:-704px;
+    width:90%;
+    height: 500px;
+  }
+  .popupsluiter{
+      top:0px;
+      right: -35px;
+      position: relative;
+  }
+
+}

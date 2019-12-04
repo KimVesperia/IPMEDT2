@@ -1,0 +1,164 @@
+#huizen{
+  background-image: url(../img/pHeader.png);
+  text-align: center;
+  position: relative;
+  height:200px;
+}
+#posters {
+text-align: center;
+width:100%;
+height:200px;
+margin-bottom:20px;
+overflow:auto;
+white-space:nowrap;
+background-image: url(../img/brick.png);
+}
+#posterTitle {
+  font-size: 1.5em;
+}
+#posters img {
+margin:40px 40px 0 40px;
+width: 150px;
+height: 120px;
+}
+#postertekst{
+  height: auto;
+  min-height: 140px;
+  background-color: #e9e4c8;
+  color: black;
+  text-align: center;
+  margin: 0 30% 0 30%;
+  padding: 5px 5px 5px 5px;
+  box-sizing: border-box;
+}
+#map{
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+img[usemap] {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+#popupwonsan{
+  background-color: #f6f1d9;
+  position: absolute;
+  z-index: 999;
+  width: 950px;
+  height: 480px;
+  padding: 30px;
+  color: #591B18;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -600px;
+}
+#popuppyongyang{
+  background-color: #f6f1d9;
+  position: absolute;
+  z-index: 999;
+  width: 950px;
+  height: 250px;
+  padding: 30px;
+  color: #591B18;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -500px;
+}
+#popupwonsan h2{
+    font-size:1.3em;
+}
+.sluitpopup{
+  text-align: center;
+  font-size: 3em;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  color:#f6f1d9;
+}
+.popupsluiter{
+  background-color: #591B18;
+  height: 60px;
+  width: 60px;
+  float: right;
+  cursor: pointer;
+  margin-top: -32px;
+}
+video{
+    width:90%;
+    height: 300px;
+    margin-left:0;
+    margin-top:15px;
+    overflow: hidden;
+}
+.popup{
+    text-align: center;
+}
+#container3{
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+#media{
+  position: relative;
+}
+#mobiel{
+  width: 5% !important;
+}
+#wrapperTime{
+  padding: 0 5% 0 5%;
+}
+#raket img{
+  width: 100%;
+}
+#raketinfo{
+  height: auto;
+  min-height: 120px;
+  color: black;
+  text-align: center;
+  margin: 0 10% 5% 10%;
+  padding: 20px 20px 10px 20px;
+  box-sizing: border-box;
+}
+.buttonColor{
+  margin-bottom: 20px; !important;
+}
+@media all and (max-width:1100px) {
+  #popuppyongyang{
+    margin-left: 20px;
+    margin-top:-500px;
+    width:80%;
+    height: 400px;
+  }
+  #popupwonsan{
+    margin-left: 20px;
+    margin-top:-600px;
+    width:70%;
+    height: 550px;
+  }
+  .popupsluiter{
+      top:0px;
+      right: -35px;
+      position: relative;
+  }
+}
+
+#mediaInfo{
+  height: auto;
+  min-height: 120px;
+  background-color: #e9e4c8;
+  color: black;
+  text-align: center;
+  margin: 5% 10% 0% 10%;
+  padding: 20px 20px 25px 20px;
+  box-sizing: border-box;
+}
+#media img{
+  margin: 0 3% 0% 3%;
+  height: auto;
+  width: 10%;
+}

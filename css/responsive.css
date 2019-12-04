@@ -1,0 +1,180 @@
+@media all and (max-width: 1665px)
+{
+  .textHome {
+    font-size: 30px;
+    width: 45%;
+  }
+}
+
+@media all and (max-width: 1000px)
+{
+
+  .bg {
+    background-size: contain;
+  }
+
+  #container, #containerHead, #containerHead2 {
+    width: 800px;
+  }
+
+  .nav1, .nav2, .nav3, .nav1x, .nav2x, .nav3x {
+    margin-right: 57px;
+  }
+
+  .nav6, .nav7, .nav8, .nav6x, .nav7x, .nav8x {
+    margin-left: 57px;
+  }
+
+  .fallback1 .nav1x, .nav2x, .nav3x {
+    margin-right: 57px;
+  }
+
+  .fallback2 .nav6x, .nav7x, .nav8x {
+    margin-left: 57px;
+  }
+
+}
+
+@media all and (max-width: 925px)
+{
+  .textHome {
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 835px)
+{
+  .textHome {
+    font-size: 25px;
+  }
+
+  #container, #containerHead, #containerHead2 {
+    width: 650px;
+  }
+
+  .nav1, .nav2, .nav3, .nav1x, .nav2x, .nav3x {
+    margin-right: 150px;
+  }
+
+  .nav6, .nav7, .nav8, .nav6x, .nav7x, .nav8x {
+    margin-left: 150px;
+  }
+
+  .fallback1 .nav1x, .nav2x, .nav3x {
+    margin-right: 150px;
+  }
+
+  .fallback2 .nav6x, .nav7x, .nav8x {
+    margin-left: 150px;
+  }
+
+  #wrap2 {
+    margin-top: -12px;
+  }
+
+}
+
+@media all and (max-width: 690px)
+{
+  .textHome {
+    width: 70%;
+  }
+
+  .headerImage, .headerImage2, .headerImage3, .headerImage4 {
+    background-size: cover;
+  }
+
+  #container, #containerHead, #containerHead2 {
+    width: 500px;
+  }
+
+  .nav1, .nav2, .nav3, .nav1x, .nav2x, .nav3x {
+    margin-right: 100px;
+  }
+
+  .nav6, .nav7, .nav8, .nav6x, .nav7x, .nav8x {
+    margin-left: 100px;
+  }
+
+  .fallback1 .nav1x, .nav2x, .nav3x {
+    margin-right: 100px;
+  }
+
+  .fallback2 .nav6x, .nav7x, .nav8x {
+    margin-left: 100px;
+  }
+
+}
+
+@media all and (max-width: 515px)
+{
+  #container, #containerHead, #containerHead2 {
+    width: 400px;
+  }
+
+  .text2 {
+    width: inherit;
+  }
+
+  .nav1, .nav2, .nav3, .nav1x, .nav2x, .nav3x {
+    margin-right: 66px;
+  }
+
+  .nav6, .nav7, .nav8, .nav6x, .nav7x, .nav8x {
+    margin-left: 66px;
+  }
+
+  .fallback1 .nav1x, .nav2x, .nav3x {
+    margin-right: 66px;
+  }
+
+  .fallback2 .nav6x, .nav7x, .nav8x {
+    margin-left: 66px;
+  }
+
+}
+
+@media all and (max-width: 495px)
+{
+  .textHome {
+      width: auto;
+      margin-left: 5%;
+      margin-right: 5%;
+      font-size: 20px;
+  }
+
+  #containerLast {
+    margin-top: 10%;
+  }
+}
+
+@media all and (max-width: 430px)
+{
+  #container, #containerHead, #containerHead2 {
+    width: 300px;
+  }
+
+  #containerLast {
+    margin-top: 20%;
+  }
+
+  .text2 {
+    width: inherit;
+  }
+
+  .nav1, .nav2, .nav3, .nav1x, .nav2x, .nav3x {
+    margin-right: 33px;
+  }
+
+  .nav6, .nav7, .nav8, .nav6x, .nav7x, .nav8x {
+    margin-left: 33px;
+  }
+
+  .fallback1 .nav1x, .nav2x, .nav3x {
+    margin-right: 33px;
+  }
+
+  .fallback2 .nav6x, .nav7x, .nav8x {
+    margin-left: 33px;
+  }
+}

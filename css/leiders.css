@@ -1,0 +1,132 @@
+body {
+	background-color: #F6F1D6;
+	text-align: center;
+}
+
+/* leider css */
+#leider1 {
+	width: 100%;
+	float:left;
+	transition: all .2s ease-in-out;
+}	
+#leider2 {
+	width: 100%;
+	float: left;
+	transition: all .2s ease-in-out;
+}
+
+#leider3 {
+	width: 100%;
+	float:left;
+	transition: all .2s ease-in-out;
+}
+#leider3 img {
+		transition: all .2s ease-in-out;
+		height:auto;
+		width:100%;
+}
+#leider2 img {
+		transition: all .2s ease-in-out;	
+		height:auto;
+		width:100%;
+}
+#leider1 img {
+		transition: all .2s ease-in-out;
+		height:auto;
+		width:100%;
+}
+
+
+
+.leidersclass {
+	width :80%;
+	margin:10%;
+	height:auto;	
+
+}
+#leiders {
+	width :80%;
+	margin-left:10%;
+	margin-right:10%;
+	height:auto;	
+	overflow: auto;
+	display: inline-block;
+}
+
+
+/* teller css */
+#tellers {
+	width :80%;
+	margin-left:10%;
+	margin-right:10%;
+	height:auto;	
+	overflow: auto;
+	display: inline-block;
+
+}
+
+
+
+/* info content css */
+#textcontent {
+	width :80%;
+	margin-left:10%;
+	margin-right:10%;
+	height:auto;	
+	overflow: auto;
+	display: inline-block;
+}
+
+#infocontent {
+	width:89%;
+	padding-bottom:8%;
+	padding-top: 8%;
+	padding-right: 5%;
+	padding-left: 5%;
+	text-align: center;
+	background-color: white;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 1px;
+}
+@media screen and (min-width: 600px) {
+	#teller1 {
+	
+	text-align: center;
+}
+#teller2 {
+	
+	
+	text-align: center;
+
+}
+
+#teller3 {
+	
+	
+	text-align: center;
+
+	}
+	/* leider css */
+#leider1 {
+	width: 33%;
+	float:left;
+	transition: all .2s ease-in-out;
+}	
+#leider2 {	
+	width: 33%;
+	float: left;
+	transition: all .2s ease-in-out;
+}
+
+#leider3 {
+	width: 33%;
+	float:left;
+	transition: all .2s ease-in-out;
+}
+}
+
+#a, #b, #c {
+	transition: all .2s ease-in-out;
+	border-radius: 20%;
+}

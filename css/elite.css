@@ -1,0 +1,282 @@
+body{
+    overflow-x: hidden;
+}
+#containerelite{
+width:100%;
+
+}
+
+img[usemap] {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+#containermap{
+  text-align: center;
+  align-items: center;
+  position: relative;
+    width:70%;
+    margin-left:15%;
+
+}
+
+#onderwerpklik{
+    position: absolute;
+    z-index: 999;
+}
+
+
+.mapimg{
+    width:100px;
+    height: 100px;
+
+}
+.mapimg img{
+      width:100px;
+    height: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+
+}
+
+
+#algemeenimg{
+
+    margin-top:-250px;
+    margin-left:470px;
+
+}
+#vermaakimg{
+     margin-top:-270px;
+    margin-left:270px;
+}
+
+#bevolkingimg{
+    margin-left:700px;
+    margin-top:-70px;
+}
+
+.popup{
+    background-color:#f6f1d9;
+    position: absolute;
+    width:600px;
+    height: auto;
+    margin-left: 20%;
+    margin-top:-750px;
+    padding:30px;
+    color:#591B18;
+    box-sizing: border-box;
+    text-align: left;
+}
+.popup h2{
+  color:#591B18;
+}
+#popupalgemeen h2{
+    font-size:1.3em;
+}
+.sluitpopup{
+
+ text-align: center;
+    font-size: 3em;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    color:#f6f1d9;
+
+
+
+}
+.popupsluiter{
+   background-color:#591B18;
+    height: 60px;
+    width:60px;
+    float: right;
+    cursor: pointer;
+    margin-top:-32px;
+    margin-left:510px;
+    position: absolute;
+}
+video{
+
+    width:500px;
+    height: 300px;
+    margin-left:0px;
+    margin-top:10px;
+  
+
+}
+
+   .tekstelite{
+        margin-top:300px;
+       background-color:#2e2e59;
+       color:white;
+       width:85%;
+       margin-left:0px;
+       padding:20px;
+       font-size: 1.5em;
+    }
+
+    #videovermaak{
+        margin-left:15px;
+
+    }
+
+.vragenlijst{
+
+    list-style-type: none;
+    list-style-image: url("../img/bulleticon.png");
+       display: inline-block;
+
+
+}
+.vragenlijst li{
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.answer{
+    width:200px;
+    height: 145px;
+    background-color:#2e2e59;
+    color:#F6F1D9;
+    text-align: center;
+
+    margin-top:-170px;
+    margin-left:50px;
+    position: absolute;
+    z-index: 9999;
+
+
+}
+.answer p{
+    margin-top:40px;
+     font-size: 3em;
+
+}
+
+
+.antwoorden{
+    top:-10px;
+    position: relative;
+}
+
+.contentelite{
+    float: left;
+}
+
+
+/* responsive */
+
+@media all and (max-width:1500px){
+        .popup{
+        margin-top:-70%;
+ 
+}
+
+@media all and (max-width:1000px){
+
+
+
+
+
+
+    .popup{
+  
+            margin-left:15%;
+        width:80%;
+    height: auto;
+    }
+
+
+    .popupsluiter{
+        top:0px;
+        right: -35px;
+        position: relative;
+    }
+
+    .contentelite{
+        float: none;
+    }
+
+ 
+
+
+    #onderwerpklik{
+        margin-top:-100px;
+        margin-left:-200px;
+    }
+    #bevolkingimg{
+        margin-left:700px;
+    }
+
+    video{
+        width:80%;
+        height: auto;
+        margin-left:0px;
+        margin-top:-5px;
+
+    }
+
+    .tekstelite{
+        margin-left:0px;
+        margin-top:0px;
+        width:90%;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media all and (max-width:750px){
+    .popup{
+        margin-left:10%;
+    }
+
+    .tekstelite{
+        font-size: 1.2em;
+    }
+
+
+    #onderwerpklik{
+        margin-left: -200px;
+    }
+
+    #bevolkingimg{
+            margin-left:300px;
+        margin-top:250px;
+    }
+
+}
+
+
+
+
+
+@media all and (max-width:500px){
+
+    .tekstelite{
+       height: 300px;
+         font-size: 1em;
+    }
+
+    #onderwerpklik{
+        margin-left:-250px;
+    }
+}
+
+@media all and (max-width:430px){
+    #algemeenimg{
+        margin-left:350px;
+    }
+}

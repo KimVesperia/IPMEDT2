@@ -1,0 +1,143 @@
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+*, *::after, *::before {
+  /*box-sizing: border-box;*/
+}
+
+@font-face {
+    : standard;
+    src: url(fonts/GOTHIC.TTF);
+}
+
+body {
+  color: #591B18;
+  background-color: #f6f1d9;
+  height: 100%;
+}
+
+a {
+  color: #9d2d28;
+  text-decoration: none;
+}
+
+/*--------------------------*/
+.regelContainer{
+	
+}
+.regelknop{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.regelknop img{
+	width: 15%;
+	height: 15%;
+}
+#regeltext{
+	padding: 2%;
+	background-color: #e9e4c8;
+	width: 100%;
+	text-align: center;
+}
+
+.kaart{
+	max-width: 100%;
+}
+/*--------------------------*/
+.interview{
+	
+	text-align: center;
+    width: auto;
+	margin: 0 auto;
+	
+
+}
+
+.tooltip {	
+	
+	display: inline-block;
+	margin: 0;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 240px;
+    background-color: #dad8c4;
+    color: #591B18;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+	opacity: 0;
+    transition: opacity 1s;
+}
+
+.interview img {
+   height: 50%;
+   width: 50%;
+}
+
+.content {
+	display: block;
+	opacity: 0.00001;
+}
+
+.content.visible {
+	opacity: 1;
+	transition: opacity .75s ease;
+}
+
+.content.hidden {
+	display: none;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+	opacity: 0.8;
+}
+/*--------------------------*/
+#map{
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+img[usemap] {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+}
+#pop14 , #pop15, #pop16, #pop18, #pop25, #popuppyong{
+  background-color: #f6f1d9;
+  position: absolute;
+  z-index: 999;
+  width: 950px;
+  height: 250px;
+  padding: 30px;
+  color: #591B18;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -500px;
+}
+.sluitpopup{
+  text-align: center;
+  font-size: 3em;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  color:#f6f1d9;
+}
+.popupsluiter{
+  background-color: #591B18;
+  height: 60px;
+  width: 60px;
+  float: right;
+  cursor: pointer;
+  margin-top: -32px;
+}
